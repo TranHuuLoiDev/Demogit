@@ -3,9 +3,505 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Mr.Louis Shop</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <h1> Xin chào các bạn </h1>
+    <div class="main">
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" id="logo"> <img src="/img/logo.jpg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span> <i class="fa-solid fa-bars" style="font-size: 23px; color: #fff;"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"> Trang Chủ </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">Giới Thiệu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#menu"> Sản Phẩm  </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#product"> Sản Phẩm Khác </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#gallary"> Phong Cách </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Liên Hệ</a>
+                  </li>
+                
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit"> Search </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+
+    
+        <section id="home">
+            <div class="content">
+                <h3> Ngày mới rực rỡ hơn với một cốc cafe <br> Cùng bắt đầu nhé!</h3>
+                    <p>
+                        Xin chào tất cả các bạn ! 
+                        <br> Hôm nay, hãy cùng Mr. Louis thưởng thức hương vị tuyệt vời của cafe để khởi đầu một ngày mới đầy năng lượng và hứng khởi
+                        <br> Cửa hàng của chúng tôi đã sẵn sàng chào đón bạn
+                    </p>
+                    <button id="btn">
+                        Đặt Hàng Ngay 
+                    </button>
+            </div>
+        </section>
+
+
+
+        <section id="about">
+          <div class="container">
+            <div class="heading"> Giới Thiệu Về <span> Chúng Tôi </span> </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card">
+                  <img src="/img/cf-3.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <h3> Cafe của chúng tôi có gì đặc biệt ? </h3>
+                <p>  Tại Việt Nam, có rất nhiều hãng cà phê đã và đang phát triển các dòng cà phê mang phong cách Việt Nam. Tuy nhiên, không nhiều người nước ngoài (kể cả người Việt Nam) có thể uống được sản phẩm này.</p>
+                <p> Để phục vụ những khẩu vị cà phê phương Tây khác nhau, chúng tôi chọn kết hợp 02 loại hạt ngon nhất Việt Nam. Đó là hạt cà phê Robusta Honey và hạt cà phê Moka Cầu Đất. Với sự kết hợp này, Cafe sẽ có những đặc điểm nổi bật sau:</p>
+                <p> Vị: Lúc đầu đắng vừa phải – Không chua – Hậu ngọt đọng lại ở cổ.</p>
+                <p> Mùi hương: Đậm - Lưu hương lâu - Cảm nhận ngay từ khi mở túi.</p>
+                <p> Sau khi pha: cà phê sẽ có màu nâu sẫm, tạo cảm giác vô cùng sang trọng. Lớp crema dày và lâu trôi.</p>
+                <button id="about-btn"> Tìm hiểu thêm </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="top-cards">
+          <div class="heading2"> Danh Mục <span> Hàng Đầu </span></div>
+          <div class="container">
+            <div class="row">
+              
+              <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                  <img src="/img/den.jpg" alt="">
+                </div>
+              </div>
+
+              <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                  <img src="/img/chuoidua.jpg" alt="">
+                </div>
+              </div>
+
+              <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                  <img src="/img/cotdua.jpg" alt="">
+                </div>
+              </div>
+
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section id="menu">
+          <div class="container">
+            <div class="heading3"> Menu </div>
+          </div>
+
+          <div class="container" id="container2">
+            <div class="row">
+              <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                  <img src="/img/den.jpg" alt="">
+                  <div class="card-body">
+                    <div class="star text-center">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+
+
+                    <h3> Đen </h3>
+                    <p> 22.000 <strike>25.000</strike> <span class="fa fa-shopping-cart" aria-hidden="true"></span> VNĐ </p>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                  <img src="/img/bacxiu.jpg" alt="">
+                  <div class="card-body">
+                    <div class="star text-center">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+
+
+                    <h3> Bạc Xỉu </h3>
+                    <p> 25.000 <strike>30.000</strike> <span class="fa fa-shopping-cart" aria-hidden="true"></span> VNĐ</p>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                  <img src="/img/cotdua.jpg" alt="">
+                  <div class="card-body">
+                    <div class="star text-center">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+
+
+                    <h3> Cốt Dừa </h3>
+                    <p> 30.000 <strike>35.000</strike><span class="fa fa-shopping-cart" aria-hidden="true"></span> VNĐ </p>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                  <img src="/img/chuoidua.jpg" alt="">
+                  <div class="card-body">
+                    <div class="star text-center">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+
+
+                    <h3> Chuối Dừa </h3>
+                    <p> 33.000 <strike>36.000</strike> <span class="fa fa-shopping-cart" aria-hidden="true"></span> VNĐ </p>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+
+          
+
+
+            </div>
+
+            <div class="row" style="margin-top: 15px;">
+              <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                  <img src="/img/esp.jpg" alt="">
+                  <div class="card-body">
+                    <div class="star text-center">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+
+
+                    <h3> Espresso </h3>
+                    <p> 22.000 <strike>25.000</strike> <span class="fa fa-shopping-cart" aria-hidden="true"></span> VNĐ </p>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                  <img src="/img/cp.jpg" alt="">
+                  <div class="card-body">
+                    <div class="star text-center">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+
+
+                    <h3> Cappuccino </h3>
+                    <p> 30.000 <strike>33.000</strike> <span class="fa fa-shopping-cart" aria-hidden="true"></span> VNĐ </p>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                  <img src="/img/ltt.jpg" alt="">
+                  <div class="card-body">
+                    <div class="star text-center">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+
+
+                    <h3> Latte </h3>
+                    <p> 30.000 <strike>34.000</strike>  <span class="fa fa-shopping-cart" aria-hidden="true"></span> VNĐ </p>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                  <img src="/img/ruousua.jpg" alt="">
+                  <div class="card-body">
+                    <div class="star text-center">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+
+
+                    <h3> Rượu Sữa </h3>
+                    <p> 27.000 <strike>30.000</strike> <span class="fa fa-shopping-cart" aria-hidden="true"></span>VNĐ</p>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+
+          
+
+
+            </div>
+          
+          </div>
+        </section>
+
+
+        <section id="product">
+          <div class="container">
+            <div class="heading4"> Thức uống khác </div>
+          </div>
+
+          <div class="container" id="container3">
+            <div class="row">
+              <div class="col-md-3 py-3 py-3">
+                <div class="card">
+                  <img src="/img/hongtra.jpg" alt="">
+                  <div class="card-body">
+                    <div class="star text-center">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+
+
+                    <h3> Hồng Trà </h3>
+                    <p> 35.000 <strike>42.000</strike> VNĐ <span class="fa fa-shopping-cart" aria-hidden="true"></span></p>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 py-3 py-3">
+                <div class="card">
+                  <img src="/img/matcha.jpg" alt="">
+                  <div class="card-body">
+                    <div class="star text-center">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+
+
+                    <h3> Matcha </h3>
+                    <p> 32.000 <strike>40.000</strike> VNĐ <span class="fa fa-shopping-cart" aria-hidden="true"></span></p>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 py-3 py-3">
+                <div class="card">
+                  <img src="/img/blue.jpg" alt="">
+                  <div class="card-body">
+                    <div class="star text-center">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+
+
+                    <h3> Blue Ocean </h3>
+                    <p> 32.000 <strike>40.000</strike> VNĐ <span class="fa fa-shopping-cart" aria-hidden="true"></span></p>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 py-3 py-3">
+                <div class="card">
+                  <img src="/img/vietquat.jpg " alt="">
+                  <div class="card-body">
+                    <div class="star text-center">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+
+
+                    <h3> Việt Quất </h3>
+                    <p> 36.000 <strike>45.000</strike> VNĐ <span class="fa fa-shopping-cart" aria-hidden="true"></span></p>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+
+          
+
+
+            </div>
+
+        </section>
+
+
+
+        
+
+
+        <section id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7">
+                <div class="heading6"> Kết Nối <span> Với Tôi </span></div>
+                <p> Kết nối với Trần Hữu Lợi (Mr.Louis) tại đây </p>
+                <input type="text" class="form-control" placeholder="Họ và tên" aria-label=" default input example"> <br>
+                <input type="email" class="form-control" placeholder="Email" aria-label=" default input example"> <br>
+                <input type="number" class="form-control" placeholder="Điện Thoại" aria-label=" default input example"> <br>
+                <button id="contact-btn"> Gửi thông tin </button>
+              </div>
+              <div class="col-md-5" id="col">
+                <h1> Thông Tin </h1>
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:tranhuuloi200510@gmail.com">tranhuuloi200510@gmail.com </a></p>
+                <p><i class="fa-solid fa-phone"></i> <a href="tel:+84396696053"> 039 6696 053 </a></p>
+                <p><i class="fa-solid fa-location-dot"></i><a href="https://maps.app.goo.gl/xkHb13WGCmzrSS739">Hồ Chí Minh , Việt Nam </a> </p>
+                <p> Thông tin địa chỉ ở cụ thể tôi xin phép không chia sẻ lên. Xin lỗi vì sự bất tiện này </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+        <footer id="footer">
+          <div class="footer-logo text-center"> <img src="/img/logo.jpg" alt=""></div>
+          <div class="socail-links text-center">
+            <a href="https://www.facebook.com/TranHuuLoi.net"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/loimusic2022/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@kyotakass1"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+
+          <div class="credits text-center">
+            Dseigned By <a href="#"> Trần Hữu Lợi </a>
+          </div>
+
+          <div class="copyright text-center">
+            &copy; Copyright <span> Mr.Louis </span> 
+
+          </div>
+        
+        
+        
+        </footer>
+
+
+
+        
+
+          
+
+
+          
+
+
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
