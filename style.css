@@ -295,7 +295,7 @@ html ::-webkit-scrollbar {
 }
 #col {
     width: 40%;
-    height: 56vh;
+    height: 60vh;
     background: rgb(8, 192, 69);
     margin-top: 78px;
 }
@@ -317,6 +317,9 @@ html ::-webkit-scrollbar {
     margin-left: 13px;
     margin-top: 30px;
     text-decoration: none;
+}
+.gg-map{
+    float: right;
 }
 @media screen and (max-width:768px){
     #contact .container {
