@@ -131,7 +131,7 @@ html ::-webkit-scrollbar {
         font-size: 15px;
     }
     #about {
-        height: 120vh;
+        height: 130vh;
     }
 }
 @media screen  and (max-width:376px){
